@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Yashvardhan | Independent Desi Hip Hop Artist</title>
+
+<meta name="description" content="Official website of Yashvardhan — Independent Desi Hip Hop artist bringing underground rap to mainstream through hustle, struggle and self-made journey.">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+/* ---------- GLOBAL STYLE ---------- */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#050505;
+color:white;
+overflow-x:hidden;
+}
+
+/* Neon Background Art */
+body::before{
+content:"";
+position:fixed;
+width:200%;
+height:200%;
+background:
+radial-gradient(circle at 20% 30%, #ff0055 0%, transparent 30%),
+radial-gradient(circle at 80% 60%, #00f0ff 0%, transparent 30%);
+animation:bgMove 15s linear infinite;
+z-index:-1;
+opacity:0.25;
+}
+
+@keyframes bgMove{
+0%{transform:translate(0,0);}
+50%{transform:translate(-10%, -10%);}
+100%{transform:translate(0,0);}
+}
+
+/* ---------- NAVBAR ---------- */
+
+nav{
+position:fixed;
+width:100%;
+padding:15px 40px;
+display:flex;
+justify-content:space-between;
+background:rgba(0,0,0,0.6);
+backdrop-filter:blur(10px);
+z-index:1000;
+}
+
+nav h1{
+font-family:'Orbitron';
+color:#00f0ff;
+letter-spacing:2px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+transition:.3s;
+}
+
+nav a:hover{
+color:#ff0055;
+}
+
+/* ---------- HERO SECTION ---------- */
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h2{
+font-family:'Bebas Neue';
+font-size:80px;
+letter-spacing:5px;
+text-shadow:0 0 20px #ff0055;
+}
+
+.typing{
+color:#00f0ff;
+font-size:22px;
+margin-top:10px;
+height:30px;
+}
+
+/* ---------- SECTION ---------- */
+
+section{
+padding:100px 10%;
+opacity:0;
+transform:translateY(50px);
+transition:1s;
+}
+
+section.show{
+opacity:1;
+transform:translateY(0);
+}
+
+h3{
+font-family:'Orbitron';
+font-size:40px;
+margin-bottom:20px;
+color:#ff0055;
+}
+
+p{
+line-height:1.8;
+font-size:18px;
+color:#ddd;
+}
+
+/* ---------- CARDS ---------- */
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:30px;
+}
+
+.card{
+background:#111;
+padding:25px;
+border-radius:15px;
+transition:.4s;
+border:1px solid #222;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 20px #00f0ff;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer{
+text-align:center;
+padding:40px;
+background:#000;
+margin-top:60px;
+}
+
+.social a{
+margin:10px;
+color:#00f0ff;
+text-decoration:none;
+font-size:18px;
+}
+
+.social a:hover{
+color:#ff0055;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+<h1>YASHVARDHAN</h1>
+<div>
+<a href="#about">About</a>
+<a href="#journey">Journey</a>
+<a href="#style">Style</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+<h2>UNDERGROUND TO MAINSTREAM</h2>
+<div class="typing" id="typing"></div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+<h3>Artist Identity</h3>
+
+<p>
+Yashvardhan is an independent Desi Hip Hop artist From Diu representing raw emotion,
+real struggle, and self-made hustle. Without industry backing or nepotism,
+his journey is built from passion, discipline, and consistency.
+</p>
+
+<p>
+Inspired by India's evolving hip hop movement, his music reflects middle-class
+reality, ambition, loneliness, and the mindset of artists building legacy
+from zero support.
+</p>
+</section>
+
+<!-- JOURNEY -->
+<section id="journey">
+<h3>The Journey</h3>
+
+<div class="cards">
+
+<div class="card">
+<h4>Starting Alone</h4>
+<p>Learning rap writing from YouTube, branding and digital creation without mentors or label support.</p>
+</div>
+
+<div class="card">
+<h4>The Hustle</h4>
+<p>Balancing life responsibilities while creating music and building identity independently.</p>
+</div>
+
+<div class="card">
+<h4>Self Made Platform</h4>
+<p>Creating personal website and online presence through coding and creativity.</p>
+</div>
+
+<div class="card">
+<h4>Mainstream Vision</h4>
+<p>Mission to push underground Desi Hip Hop culture toward global recognition.</p>
+</div>
+
+</div>
+</section>
+
+<!-- STYLE -->
+<section id="style">
+<h3>Artistic Style</h3>
+
+<div class="cards">
+<div class="card">Emotional Rap</div>
+<div class="card">Melodic Trap</div>
+<div class="card">Hardcore Reality Rap</div>
+<div class="card">Storytelling Hip Hop</div>
+<div class="card">Independent Artist Culture</div>
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h3>Connect</h3>
+
+<p>
+Follow the journey and be part of the movement.
+</p>
+
+<div class="social">
+<a href="https://www.instagram.com/_yaa.ssshhhh/">Instagram</a>
+<a href="#">YouTube</a>
+<a href="#">Spotify</a>
+<a href="https://www.gmail.com/yashvardhanbariya27@gmail.com/">Email</a>
+</div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+<p>© 2026 Yashvardhan — Independent Desi Hip Hop Artist</p>
+</footer>
+
+<script>
+
+/* Typing Animation */
+
+const text = [
+"Independent Desi Hip Hop Artist",
+"Built Without Industry Support",
+"From Struggle to Legacy"
+];
+
+let count = 0;
+let index = 0;
+let currentText = "";
+let letter = "";
+
+(function type(){
+
+if(count === text.length){
+count = 0;
+}
+
+currentText = text[count];
+letter = currentText.slice(0, ++index);
+
+document.getElementById("typing").textContent = letter;
+
+if(letter.length === currentText.length){
+count++;
+index = 0;
+setTimeout(type,1500);
+}else{
+setTimeout(type,70);
+}
+
+})();
+
+/* Scroll Animation */
+
+const sections = document.querySelectorAll("section");
+
+window.addEventListener("scroll", () => {
+sections.forEach(sec=>{
+const top = window.scrollY;
+const offset = sec.offsetTop - 500;
+
+if(top > offset){
+sec.classList.add("show");
+}
+});
+});
+
+</script>
+
+</body>
+</html>
